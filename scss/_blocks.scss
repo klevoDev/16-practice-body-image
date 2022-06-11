@@ -1,0 +1,37 @@
+.wrapper {
+    margin: 70px 0;
+}
+
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 138.5%;
+}
+
+.text {
+    font-family: $fontRoboto;
+    font-size: 16px;
+    line-height: 150%;
+    opacity: 0.7;
+}
+
+.price {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 138.5%;
+}
+
+.span {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    text-decoration-line: line-through;
+    opacity: 0.7;
+}

@@ -1,0 +1,58 @@
+.cayenne {
+    &__row {
+        display: flex;
+    }
+
+    &__body {
+        flex: 1 1 auto;
+        text-align: right;
+        padding: 91px 84px 0 52px;
+    }
+
+    &__title {
+        margin-bottom: 11px;
+    }
+
+    &__text {
+        display: inline-block;
+        justify-content: flex-end;
+        max-width: 444px;
+
+        margin-bottom: 23px;
+    }
+
+    &__price {
+        margin-bottom: 16px;
+    }
+
+    &__span {
+    }
+
+    &__wrap-link {
+    }
+
+    &__link {
+        display: inline-block;
+
+        background: #d64374;
+        border-radius: 5px;
+        color: #fff;
+
+        transition: all 0.3s ease 0s;
+
+        padding: 15px 55px 15px 46px;
+
+        &:hover {
+            box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 5px;
+        }
+    }
+
+    &__wrap-image {
+        flex: 0 0 580px;
+    }
+
+    &__image {
+        max-width: 580px;
+    }
+}
